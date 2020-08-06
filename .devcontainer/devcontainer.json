@@ -6,13 +6,15 @@
   // Install python extension"
   "extensions":["ms-python.python"],
   
-  //Use Python 3.6 environment by defualt
+  //Use Python 3.x environment by defualt
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "python.pythonPath": "/opt/conda/bin/python",
     "terminal.integrated.inheritEnv": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/opt/conda/bin/pylint"
+    "python.linting.pylintPath": "/opt/conda/bin/pylint",
+    "python.dataScience.alwaysTrustNotebooks":true,
+    "python.showStartPage": false
   }
 }
