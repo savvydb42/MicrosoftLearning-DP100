@@ -43,12 +43,12 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
 2. On the **Compute Instances** tab, add a new compute instance with the following settings. You'll use this as a workstation from which to test your model:
     - **Compute name**: *enter a unique name*
     - **Virtual Machine type**: CPU
-    - **Virtual Machine size**: Standard_DS1_v2
+    - **Virtual Machine size**: Standard_DS2_v2
 3. While the compute instance is being created, switch to the **Compute Clusters** tab, and add a new compute cluster with the following settings. You'll use this to train a machine learning model:
     - **Compute name**: *enter a unique name*
     - **Virtual Machine type**: CPU
     - **Virtual Machine priority**: Dedicated
-    - **Virtual Machine size**: Standard_DS2_v2
+    - **Virtual Machine size**: Standard_DS11_v2
     - **Minimum number of nodes**: 0
     - **Maximum number of nodes**: 2
     - **Idle seconds before scale down**: 120
