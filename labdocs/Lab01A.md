@@ -20,10 +20,7 @@ If you are using an Azure Pass subscription, provided to you for this course, yo
 
 As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
-1. In the [Azure portal](https://portal.azure.com), create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group in the region nearest your location. Select the **Enterprise** workspace edition.
-
-   > **Note**: Basic edition workspaces have lower cost, but don't include capabilities like Auto ML, the Visual Designer, and data drift monitoring. For more details, see [Azure Machine Learning pricing](https://azure.microsoft.com/en-us/pricing/details/machine-learning/).
-
+1. In the [Azure portal](https://portal.azure.com), create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group in the region nearest your location.
 2. When the workspace and its associated resources have been created, view the workspace in the portal.
 
 ## Task 2: Explore the Azure ML Studio Interface
@@ -43,7 +40,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
 2. On the **Compute Instances** tab, add a new compute instance with the following settings. You'll use this as a workstation from which to test your model:
     - **Compute name**: *enter a unique name*
     - **Virtual Machine type**: CPU
-    - **Virtual Machine size**: Standard_DS2_v2
+    - **Virtual Machine size**: Standard_DS11_v2
 3. While the compute instance is being created, switch to the **Compute Clusters** tab, and add a new compute cluster with the following settings. You'll use this to train a machine learning model:
     - **Compute name**: *enter a unique name*
     - **Virtual Machine type**: CPU
