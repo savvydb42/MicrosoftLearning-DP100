@@ -21,10 +21,10 @@ In this lab, you will publish an inference pipeline as a containerized service i
 2. In the **Compute Instances** tab, if your compute instance is not already running, start it - you will use it later in this lab.
 
 3. On the **Inference Clusters** tab, add a new cluster with the following settings:
-    * **Compute name**: *enter a unique name*
     * **Kubernetes Service**: Create new
     * **Region**: Select any available region
-    * **Virtual Machine size**: Standard_DS2_v2 (*Use the filter to find this in the list*)
+    * **Virtual Machine size**: Standard_DS2_v2 (*Use the search box to find this in the list*)
+    * **Compute name**: *enter a unique name*
     * **Cluster purpose**: Dev-test
     * **Number of nodes**: 2
     * **Network configuration**: Basic
