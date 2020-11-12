@@ -41,7 +41,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
     - **Virtual Machine type**: CPU
     - **Virtual Machine size**: Standard_DS11_v2
     - **Compute name**: *enter a unique name*
-    - **Enable SSL configuration**: Unselected
+    - **Enable SSH access**: Unselected
 3. While the compute instance is being created, switch to the **Compute Clusters** tab, and add a new compute cluster with the following settings. You'll use this to train a machine learning model:
     - **Virtual Machine priority**: Dedicated
     - **Virtual Machine type**: CPU
@@ -50,7 +50,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
     - **Minimum number of nodes**: 0
     - **Maximum number of nodes**: 2
     - **Idle seconds before scale down**: 120
-    - **Enable SSL configuration**: Unselected
+    - **Enable SSH access**: Unselected
 4. Note the **Inference Clusters** tab. This is where you can create and manage compute targets on which to deploy your trained models as web services for client applications to consume.
 5. Note the **Attached Compute** tab. This is where you could attach a virtual machine or Databricks cluster that exists outside of your workspace.
 
