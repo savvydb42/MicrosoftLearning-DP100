@@ -1,5 +1,14 @@
 # DP-100: Designing and Implementing a Data Science Solution on Azure
 
+> ## Important Notice!
+>
+> This repo will be replaced by a [new repo](https://aka.ms/mslearn-dp100) on **December 12th 2020**. The corresponding courseware will also be updated at this time. We're making this change to:
+> - Consolidate the labs used in the DP-100 instructyor-led course and the self-paced exercises in the equivalent online modules on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).
+> - Update labs to reflect recent changes in the Azure Machine Learning service and SDK.
+> - Add new labs on topics related to responsible machine learning.
+>
+> After a short interval, this repo will be archived.
+
 ## Course Labs
 
 Welcome to the hands-on lab exercises for course [DP-100 *Designing and Implementing a Data Science Solution on Azure*](https://docs.microsoft.com/en-us/learn/certifications/courses/dp-100t01). The labs are designed to accompany the course and enable you to practice using the technologies described in the classroom materials.
