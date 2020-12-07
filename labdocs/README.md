@@ -3,7 +3,7 @@
 > ## Important Notice!
 >
 > This repo will be replaced by a [new repo](https://aka.ms/mslearn-dp100) on **December 12th 2020**. The corresponding courseware will also be updated at this time. We're making this change to:
-> - Consolidate the labs used in the DP-100 instructyor-led course and the self-paced exercises in the equivalent online modules on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).
+> - Consolidate the labs used in the [DP-100 instructor-led course](https://docs.microsoft.com/learn/certifications/courses/dp-100t01_) and the self-paced exercises in the equivalent online modules on [Microsoft Learn](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/).
 > - Update labs to reflect recent changes in the Azure Machine Learning service and SDK.
 > - Add new labs on topics related to responsible machine learning.
 >
